@@ -2,7 +2,7 @@ import express from "express";
 import bodyParser from "body-parser";
 
 const app = express();
-const port = 3000;
+
 
 
 const blogPosts = [];
@@ -64,6 +64,6 @@ app.post("/create", (req, res) => {
 
 
 
-app.listen(port, () => {
-console.log(`Server running on port ${port}`);
+app.listen(() => {
+console.log("Server running");
 });
