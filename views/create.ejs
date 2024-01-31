@@ -1,0 +1,43 @@
+<!-- create.ejs -->
+
+<%- include("partials/header.ejs") %>
+<body>
+    <div class="container mt-5">
+        <h2 class="contact-me">Create a New Blog Post</h2>
+
+        <!-- Display validation errors if any -->
+  
+
+        <form action="/create" method="post">
+            <div class="mb-3">
+                <label for="title" class="form-label"><h4 class="write">Title</h4></label>
+                <input type="text" class="form-control" id="title" name="title" required>
+            </div>
+            <div class="mb-3">
+                <label for="content" class="form-label"><h4 class="write">Content</h4></label>
+                <textarea class="form-control" id="content" name="content" rows="4" required></textarea>
+            </div>
+            <div class="mb-3">
+                <label for="author" class="form-label"><h4 class="write">Author</h4></label>
+                <input type="text" class="form-control" id="author" name="author" required>
+            </div>
+            <div class="mb-3">
+                <label for="photo" class="form-label"><h4 class="write">Upload Blog Photo</h4></label>
+                <input type="file" class="form-control" id="photo" name="photo">
+            </div>
+            <div class="mb-3">
+                <label for="date" class="form-label"><h4 class="write">Publication Date</h4></label>
+                <input type="date" class="form-control" id="date" name="date" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Create Post</button>
+        </form>
+    </div>
+    <br>
+    <hr>
+
+<p class="heart"> Made with ❤️ </p>
+<hr>
+<br>
+</body>
+
+<%- include("partials/footer.ejs") %>
