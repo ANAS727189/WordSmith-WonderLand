@@ -15,8 +15,11 @@ const port = process.env.PORT || 3000;
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 
-const blogPosts = [];
 app.use(express.static("public"));
+
+
+const blogPosts = [];
+
 app.use(bodyParser.urlencoded({extended:true}));
 
 app.get("/", (req,res) => {
@@ -65,7 +68,7 @@ app.post("/create", (req, res) => {
 
         res.redirect("/blogs");
     } else {
-        // Handle form validation errors
+  
         res.render("create.ejs", { error: "Please fill in all fields" });
     }
 });
