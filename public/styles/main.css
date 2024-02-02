@@ -28,7 +28,7 @@ body {
 }
 
 .image {
-  background-image: url("../../public/images/annie-spratt-OTy0mkqc2Yk-unsplash.jpg");
+  background-image: url("/images/annie-spratt-OTy0mkqc2Yk-unsplash.jpg");
   background-size: cover;
   height: 600px;
   text-align: center;
