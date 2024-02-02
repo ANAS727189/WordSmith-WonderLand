@@ -328,7 +328,7 @@ form {
 }
 
 .top-title {
-  font-size: 60px;
+  font-size: 50px;
 }
 
 .quote-section {
@@ -363,13 +363,13 @@ form {
     right: 6px; 
 }
 .top-title {
-  font-size: 40px;
+  font-size: 35px;
 }
 .abraham-quote-section {
   right: unset; 
   left: 190px;
   bottom: 0px;
-  top:417px;
+  top:405px;
   max-width: 60%;
 }
 
