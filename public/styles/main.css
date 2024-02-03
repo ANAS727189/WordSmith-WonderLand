@@ -319,7 +319,7 @@ form {
   }
 
   .blog-block {
-      width: 80%;
+      width: 90%;
       margin: auto;
   }
 
@@ -338,7 +338,7 @@ form {
   right: unset; 
   left: 170px; 
   bottom: 0px;
-  top: 455px;
+  top: 445px;
   max-width: 65%;
 }
 
@@ -351,8 +351,9 @@ form {
       font-size: 12px;
   }
 
+  
   .blog-block {
-      width: 90%;
+      width: 120%;
   }
 
   .hero-text {
@@ -369,7 +370,7 @@ form {
   right: unset; 
   left: 190px;
   bottom: 0px;
-  top:405px;
+  top:355px;
   max-width: 60%;
 }
 
