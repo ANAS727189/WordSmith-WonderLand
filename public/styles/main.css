@@ -328,7 +328,7 @@ form {
 }
 
 .top-title {
-  font-size: 50px;
+  font-size: 45px;
 }
 
 .quote-section {
@@ -349,11 +349,16 @@ form {
   
   body {
       font-size: 12px;
+      overflow-x: hidden;
+  }
+  .blog-image {
+    height: 180px;
+    width: 180px;
   }
 
   
   .blog-block {
-      width: 120%;
+      width: 109%;
   }
 
   .hero-text {
@@ -364,13 +369,13 @@ form {
     right: 6px; 
 }
 .top-title {
-  font-size: 35px;
+  font-size: 30px;
 }
 .abraham-quote-section {
   right: unset; 
   left: 190px;
   bottom: 0px;
-  top:355px;
+  top:385px;
   max-width: 60%;
 }
 
