@@ -440,24 +440,24 @@ font-size: 30px;
 }
   .abraham-quote-section {
     right: unset; 
-    left: 190px;
+    left: 160px;
     bottom: 0px;
     max-width: 85%;
     top :308px;
 }
 
 .blog-title {
-  font-size: 22px;
-  margin-top: 8px;
+  font-size: 20px;
+  margin-top: 3px;
 }
 
 .blog-image {
-  height:100px;
-  width:100px;
+  height:80px;
+  width:80px;
   object-fit: cover;
     border-radius: 5px;
     float: right;
-    margin-left: 20px; 
+    margin-left: 18px; 
 }
 
 .blog-block {
