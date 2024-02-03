@@ -345,16 +345,16 @@ form {
 }
 
 /* Media queries for smartphones */
-@media only screen and (max-width: 500px) {
+@media only screen and (min-width: 370px) and (max-width: 500px) {
   
   body {
       font-size: 12px;
-      overflow-x: hidden;
+     
   }
-  .blog-image {
-    height: 180px;
-    width: 180px;
-  }
+  /* .blog-image {
+    height: 190px;
+    width: 190px;
+  } */
 
   
   .blog-block {
@@ -375,8 +375,47 @@ form {
   right: unset; 
   left: 190px;
   bottom: 0px;
-  top:385px;
+  top:380px;
   max-width: 60%;
 }
 
+}
+
+@media only screen and (max-width: 370px) {
+
+  
+  body {
+    font-size: 12px;
+}
+  .abraham-quote-section {
+    right: unset; 
+    left: 190px;
+    bottom: 0px;
+    max-width: 85%;
+    top :308px;
+}
+
+.blog-image {
+  height:140px;
+  width:140px;
+  object-fit: cover;
+    border-radius: 5px;
+    float: right;
+    margin-left: 25px; 
+}
+
+.blog-block {
+  width: 115%;
+}
+
+.hero-text {
+font-size: 12px; 
+}
+
+.quote-section {
+right: 6px; 
+}
+.top-title {
+font-size: 30px;
+}
 }
